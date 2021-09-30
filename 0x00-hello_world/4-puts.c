@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Main
+ * main - main
  *
  * retrun: 0
  */
