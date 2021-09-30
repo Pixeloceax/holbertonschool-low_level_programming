@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - ùa
+ * main - Main
  *
  * retrun: 0
  */
