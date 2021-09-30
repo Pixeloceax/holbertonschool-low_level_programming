@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main - Main
+ * main - Main
  *
- *retrun: 0
+ * retrun: 0
  */
 int main(void)
 {
