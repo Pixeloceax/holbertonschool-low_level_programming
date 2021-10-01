@@ -1,4 +1,4 @@
-#include <stdio.h>
+)#include <stdio.h>
 /**
  * main - Main
  *
@@ -8,14 +8,15 @@ int main(void)
 {
 int n1 = 48;
 while (n1 <= 57)
-{
-if (n1 <= 56)
+{  
+putchar(n1);
+n1++;
+if (n1 <= 57)
 {
 putchar(',');
 putchar(' ');
 }
-n1++;
-putchar(n1);
+ 
 }
 return (0);
 }
