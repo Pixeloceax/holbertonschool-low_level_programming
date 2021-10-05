@@ -1,4 +1,4 @@
-à&#include "main.h"
+#include "main.h"
 /**
  * main - Main
  *
