@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - main
+ *
+ * Return: 0
+ */
+int main(void)
+{
+char c;
+ int n;
+ while(n <=10)
+   {
+for (c = 'a'; c <= 'z'; ++c)
+putchar(c);
+putchar('\n');
+ n++;
+   }
+return (0);
+}
