@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_sign - sign for number
+ * _abs - abs
  *
- * @n: variable
+ *@n: variable
  *
- * Return: 1 is lower and upper case 0 to the other
+ * Return: n
  */
 
-int _abs(int n )
+int _abs(int n)
 {
 if (n < 0)
 {
