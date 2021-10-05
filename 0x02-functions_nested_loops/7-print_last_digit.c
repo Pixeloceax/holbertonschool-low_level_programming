@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * print_last_digit 
+ * print_last_digit - oui
  *
  * @n: variable
  *
  * Return: 1 is lower and upper case 0 to the other
  */
-
-
 int print_last_digit(int n)
 {
 	n = n % 10;
