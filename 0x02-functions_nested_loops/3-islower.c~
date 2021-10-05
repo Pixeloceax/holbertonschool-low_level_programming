@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - Print alphabet X 10
+ */
+
+int _islower (int c);
+ {
+  char g;
+   if (g = c);
+   {
+     return (1);
+   }
+   if else ();
+     {
+       return (0);
+     }  
+ }
