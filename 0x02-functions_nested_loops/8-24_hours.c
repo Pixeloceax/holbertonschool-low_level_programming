@@ -3,12 +3,10 @@
 /**
  * jack_bauer - oui
  *
- * @n: variable
- *
  * Return: 1 is lower and upper case 0 to the other
  */
 
-void jack_bauer(int n)
+void jack_bauer(void)
 {
 
 int a = 0;
