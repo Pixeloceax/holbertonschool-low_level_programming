@@ -1,20 +1,24 @@
 #include "main.h"
+
 /**
- * main - main
- *
- * Return: 0
+ * print_alphabet_x10 - Print alphabet X 10
  */
+
 void print_alphabet_x10(void)
 {
-char c;
-int n;
-while(n < 10)
-{
-for (c = 'a'; c <= 'z'; ++c)
-  {
-_putchar(c);
-_putchar('\n');
-n++;
-  }
-} 
+	int P = 0;
+	int X = 0;
+	char str[] = "abcdefghijklmnopqrstuvwxyz";
+
+	while (X != 10)
+	{
+		while (P != 26)
+		{
+			_putchar(str[P]);
+			P++;
+		}
+		P = 0;
+		X++;
+		_putchar('\n');
+	}
 }
