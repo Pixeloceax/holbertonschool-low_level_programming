@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * print_numbers - commit
- *
- * Return: Always 0.
+ * print_numbers - print numbers
+ * Return: multipe
  */
+
 void print_numbers(void)
 {
-	int num;
+	char c = 48;
 
-	for (num = 48; num <= 58; num++)
+	while (c <= 57)
 	{
-		_putchar(num);
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }
