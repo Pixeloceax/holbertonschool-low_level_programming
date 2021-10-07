@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * _isupper - check the code.
- *@c: comment
- * Return: Always 0.
+ * _isupper - upper
+ * @c: third integer
+ * Return: upper
  */
+
 int _isupper(int c)
 {
-	if (c >= 'A' && c >= 'Z')
+
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
