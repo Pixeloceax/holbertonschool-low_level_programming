@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -12,7 +11,7 @@ void print_triangle(int size)
 	int a = 1;
 	int b;
 
-	if (size != 0)
+	if (size > 0)
 	{
 		while (a <= size)
 		{
