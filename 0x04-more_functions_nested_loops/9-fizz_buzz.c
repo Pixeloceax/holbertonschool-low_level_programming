@@ -1,26 +1,39 @@
 #include <stdio.h>
+
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - Main
+ * Return: fizz ou Buzz
  */
+
 int main(void)
 {
-    int num = 0;
-	for (num = 0; num <= 100; num++)
+	int num;
+
+	for (num = 1; num <= 100; num++)
 	{
-		if (num % 5 == 0 || num % 3 == 0)
+		if ((num % 3) == 0 && (num % 5) == 0)
 		{
 			printf("FizzBuzz");
 		}
-		else if (num )
+		else if ((num % 3) == 0)
 		{
-			/* code */
+			printf("Fizz");
 		}
-		
-		
-		printf("%d" , num);
-
+		else if ((num % 5) == 0)
+		{
+			printf("Buzz");
+		}
+		else
+		{
+			printf("%d", num);
+		}
+		if (num != 100)
+		{
+			printf(" ");
+		}
 	}
-	
+
+	printf("\n");
+
+	return (0);
 }
