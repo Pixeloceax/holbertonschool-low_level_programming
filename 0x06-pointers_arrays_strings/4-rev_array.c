@@ -7,11 +7,15 @@
  *
  * Return: nothing.
  */
-void print_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
-	for (int i = 0; i < n; i++)
+	int i;
+	int j;
+
+	for (i = 0; i < n--; i++)
 	{
-		return(a[i]);
+		j = a[i];
+		a[i] = a[n];
+		a[n] = j;
 	}
-	
 }
