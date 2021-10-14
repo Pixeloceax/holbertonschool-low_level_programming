@@ -2,7 +2,9 @@
 
 /**
  * _strncat - check the code
- *
+ *@dest : dlfk
+ * @n : dsmlkf
+ * @src : ùmkfds
  * Return: Always 0.
  */
 
@@ -10,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int a, b, counter = 0;
 
-	for(a = 0; dest[a] !='\0'; a++)
+	for (a = 0; dest[a] != '\0'; a++)
 	{
 		counter++;
 	}
@@ -19,5 +21,5 @@ char *_strncat(char *dest, char *src, int n)
 		dest[counter + b] = src[b];
 	}
 	dest[counter + b] = '\0';
-	return(dest);
+	return (dest);
 }

@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * _strcmp - check the code
+ *@s1 : lkjfds
+ * @s2 : fds
  * Return: Always 0.
  */
 int _strcmp(char *s1, char *s2)

@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- * main - check the code
- *
+ * _strncpy - check the code
+ *@src : mlkfdj
+ * @n : fmlqk
+ * @dest : dmlkfj
  * Return: Always 0.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int a;
-	
+
 	for (a = 0; a < n && src[a] != '\0'; a++)
 	{
 		dest[a] = src[a];
@@ -15,8 +17,8 @@ char *_strncpy(char *dest, char *src, int n)
 	for (; a < n;  a++)
 	{
 		dest[a] = '\0';
-		
+
 	}
-	return(dest);
-	
+	return (dest);
+
 }
