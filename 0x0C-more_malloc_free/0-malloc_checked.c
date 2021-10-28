@@ -3,15 +3,15 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked  - main fonction 
+ * malloc_checked  - main fonction
  *@b : variable
  * Return: NULL
  */
 void *malloc_checked(unsigned int b)
 {
 	int *p = NULL;
-	p = malloc (b);
 
+	p = malloc(b);
 	if (p == NULL)
 	{
 		free(p);
