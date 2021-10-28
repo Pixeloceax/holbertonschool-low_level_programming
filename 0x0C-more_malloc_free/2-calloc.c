@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * _calloc - Recode the calloc function
+ * _calloc - main fonction
  *
- * @nmemb: Length of the array that contain pointers
- * @size: Size of the elements pointed
+ * @nmemb: nmemb
+ * @size: size
  *
- * Return: NULL if any problem, pointer to the array else (succes)
+ * Return: NULL 
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
