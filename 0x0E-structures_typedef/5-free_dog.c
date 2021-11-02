@@ -3,12 +3,15 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * free_dog - main fonction
+ * @d : pointers
  */
 void free_dog(dog_t *d)
 {
+	if (d == NULL)
+	{
+		return (NULL);
+	}
 	free(d->name);
 	free(d->owner);
 	free(d);
