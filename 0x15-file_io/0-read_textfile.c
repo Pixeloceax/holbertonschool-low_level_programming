@@ -3,7 +3,7 @@
 /**
  *read_textfile - function
  *@filename: filename
- *@letters: letters
+ *@letters: letters1
  *Return: ssize_t
  */
 
@@ -24,7 +24,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 
 	size = read(fd, c, letters);
-	write(1, c, size);
+	write(c, size);
 	close(fd);
 	return (size);
 }
