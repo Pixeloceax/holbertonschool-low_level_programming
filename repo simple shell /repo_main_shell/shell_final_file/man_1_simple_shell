@@ -1,21 +1,26 @@
 .TH Simple_Shell 1 02/12/2021 GNU 
 .SH NAME
-    Simple_Shell
+    Simple_Shell, the standard command language interpreter
 
 .SH SYNOPSIS
+    
+
     we have recreated a shell in c language, this one works like the real shell
     run the simple_shell file, a terminal will open and wait for a command like cd or ls
 
 .SH DESCRIPTION
-   we manage the following command 
+   shell is a command language interpreter that shall execute commands read from a command line string, the standard input, or a specified file.
 
-    -cd  /change directory 
+    -cd		change directory 
 
-    -ls /list environement file
+    -ls 		list environement file
 
-    -cat /see into the file
+    -cat		see into the file
 
-    -exit /exit the simple shell 
+    -exit		exit the simple shell 
+
+	-env 		print actual environement
+    - *** add command ***
        
 .SH EXAMPLES
     $ /bin/ls
