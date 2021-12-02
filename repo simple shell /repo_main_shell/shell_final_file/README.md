@@ -14,6 +14,12 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
 main is the central code it contains the main function of simple shell
 ```
+***
+## shell.h
+### [shell.h](./shell.h)
+```
+library containing all standard libraries and structures
+```
 
 ***
 ## `PATH` command
@@ -86,10 +92,32 @@ free all chained list variable
 ```
 
 ***
+## search_command_path
+### [search_command_path](./search_command_path.c)
+```
+search_command_path
+```
+
+***
+## check_built_in
+### [check_build_in](./check_built_in.c)
+```
+check if each command exists before forking and allocate memory if necessary
+```
+
+***
+## add_node_end
+### [add_node_end](./add_node_end.c)
+```
+add node end
+```
+
+***
 ## man page for simple shell
 ### [man_1_simple_shell](./man_1_simple_shell)
 ```
 man contain all command add in the simple shell
+use "man ./man_1_simple_shell" for display the man page in the terminal
 ```
 ***
 
