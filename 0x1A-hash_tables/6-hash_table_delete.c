@@ -1,4 +1,9 @@
 #include "hash_tables.h"
+/**
+ *hash_table_delete - function
+ *
+ *@ht: V
+ */
 void hash_table_delete(hash_table_t *ht)
 {
 	hash_node_t *hash, *temp;
