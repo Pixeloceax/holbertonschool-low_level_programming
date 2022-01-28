@@ -7,7 +7,7 @@
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-	hash_node_t *node;
+	hash_node_t *hash;
 	long int index;
 
 	if (key == NULL)
@@ -19,13 +19,13 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 	}
 	index = key_index((const unsigned char *)key, ht->size);
-	node = ht->array[index];
+	hash = ht->array[index];
 
-	for (; node != NULL; node = node->next)
+	for (; hash != NULL; hash = hash->next)
 	{
-		if (strcmp(node->key, key) == 0)
+		if (strcmp(hash->key, key) == 0)
 		{
-			return (node->value);
+			return (hash->value);
 		}
 	}
 	return (NULL);
