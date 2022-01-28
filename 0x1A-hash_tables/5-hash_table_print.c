@@ -18,12 +18,11 @@ void hash_table_print(const hash_table_t *ht)
 			{
 				if (index_2 != 0)
 				{
-					printf(", ");	
+					printf(", ");
 				}
 				printf("'%s': '%s'", node->key, node->value);
 				index_2 += 1;
 				node = node->next;
-				
 			}
 		}
 		printf("}\n");
