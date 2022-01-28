@@ -22,5 +22,6 @@ int main(void)
     hash_table_set(ht, "Betty", "Cool");
     hash_table_set(ht, "98", "Battery Street");
     hash_table_print(ht);
+    hash_table_print(ht);
     return (EXIT_SUCCESS);
 }
