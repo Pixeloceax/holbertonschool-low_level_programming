@@ -1,1 +1,1 @@
-## Holbertonschool low level programming
+## Holberton school low level programming
